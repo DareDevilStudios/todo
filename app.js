@@ -3,6 +3,8 @@ const mongoose = require('mongoose')
 
 const app = express()
 
+//mongodb://localhost/todo_express
+//mongodb://localhost:27017
 
 mongoose.connect('mongodb://localhost/todo_express', {
     useNewUrlParser: true,
